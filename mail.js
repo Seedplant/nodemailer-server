@@ -9,7 +9,7 @@ const getEmailData = (to, name, template)  => {
   switch (template) {
     case "hello":
       data = {
-        from : "Mocha class <hello@mochaclass.com>",
+        from : "Jonghak Jung <ksgj2000@gmail.com>",
         to,
         subject : `Hello ${name}`,
         html : Hello()
@@ -36,8 +36,8 @@ const sendEmail = (to, name, type)  => {
   const smtpTransport = mailer.createTransport({
     service: "Gmail",
     auth: {
-      user: "ksgj2000@gmail.com",
-      pass: "wjdwhdgkr89!"
+      user: "example@gmail.com",
+      pass: "password"
     }
   })
 
