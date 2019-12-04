@@ -9,7 +9,7 @@ const getEmailData = (to, name, template)  => {
   switch (template) {
     case "hello":
       data = {
-        from : "Jonghak Jung <ksgj2000@gmail.com>",
+        from : " name <example@gmail.com>",
         to,
         subject : `Hello ${name}`,
         html : Hello()
@@ -18,7 +18,7 @@ const getEmailData = (to, name, template)  => {
 
     case "thanks":
       data = {
-        from : "Jonghak Jung <ksgj2000@gmail.com>",
+        from : "name <example@gmail.com>",
         to,
         subject : `Thanks ${name}`,
         html : Thanks()
