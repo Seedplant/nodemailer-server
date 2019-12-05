@@ -1,14 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
-// const https = require('https');
-// const http = require('http');
-// const fs = require('fs');
+const dotenv = require('dotenv');
+dotenv.config();
 
-// const options = {
-//   key: fs.readFileSync('./key.pem'),
-//   cert: fs.readFileSync('./cert.pem')
-// };
 
 const app = express();
 
@@ -22,7 +17,7 @@ const { sendEmail } = require('./mail');
 app.post("/api/sendMail", (req, res) => {
   console.log(req.body)
 
-  sendEmail(req.body.email, req.body.name, "hello")
+  sendEmail(req.body.email, req.body.name, "introduce")
 })
 
 

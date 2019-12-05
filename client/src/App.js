@@ -25,6 +25,7 @@ function App() {
     const dataToSubmit = {
       name,
       email,
+     // type //이메일 형태 : 웰컴 또는 감사 비밀번호 변경 구독 등
     }
 
     axios.post("/api/sendMail", dataToSubmit)

@@ -11,4 +11,4 @@
 5. 본 노드 서버는 http로 만들어져서 gmail 이 보안상 거부하는데 
    https://myaccount.google.com/lesssecureapps 를 통해 사용 가능으로 풀어주면 nodemailer 메일 발송이 가능해진다.
 
-6. aws 는 https://blog.rajephon.dev/2018/10/06/Amazon-SES-Setup-00/ 참고
+6. aws는 https://docs.aws.amazon.com/workmail/latest/userguide/using_IMAP_client.html 참고
