@@ -1,5 +1,9 @@
 ## nodemailer 만들기
 
+https://www.youtube.com/watch?v=04zqBhQx7xU
+<= 참고
+유투브 강좌를 보며 만들었다.
+
 1. 간단한 node express 서버를 만들어 nodemailer 를 활용해 메일링 서버를 만든다.
 
 2. 메일을 입력하면 해당 메일로 환영 메일이 날아올 수 있도록 간단한 클라이언트 페이지를 create-react-app로 만든다.
