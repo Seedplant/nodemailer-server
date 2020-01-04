@@ -12,3 +12,5 @@
    https://myaccount.google.com/lesssecureapps 를 통해 사용 가능으로 풀어주면 nodemailer 메일 발송이 가능해진다.
 
 6. aws는 https://docs.aws.amazon.com/workmail/latest/userguide/using_IMAP_client.html 참고
+
+7. csv 읽어 바로 발송 -> 시년 맞이 이메일 발송에 활용

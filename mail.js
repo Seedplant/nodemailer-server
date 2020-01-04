@@ -3,6 +3,8 @@ const { Hello } = require("./Templates/hello_template");
 const { Thanks } = require("./Templates/thanks_template");
 const { Introduce } = require("./Templates/introduce_template");
 const { PasswordCheck } = require("./Templates/passwordCheck_template");
+const { HappyNewYear } = require("./Templates/happyNewYear_template");
+
 
 
 const getEmailData = (to, name, template)  => {
@@ -42,6 +44,15 @@ const getEmailData = (to, name, template)  => {
         to,
         subject : `베타 서비스 실시 안내! ${name}`,
         html : Introduce()
+      }
+      break;
+
+      case "happyNewYear":
+      data = {
+        from : `모카 클래스 <${process.env.EMAIL_ADRESS}>`,
+        to,
+        subject : `안녕하세요! 모카 클래스의 #1번째 뉴스레터 입니다.`,
+        html : HappyNewYear()
       }
       break;
 
