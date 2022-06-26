@@ -1,8 +1,7 @@
 ## nodemailer 만들기
 
 https://www.youtube.com/watch?v=04zqBhQx7xU
-<= 참고
-유투브 강좌를 참고 하였습니다.
+<= 유투브 강좌를 참고 하였습니다.
 
 1. 간단한 node express 서버를 만들어 nodemailer 를 활용해 메일링 서버를 만든다.
 
